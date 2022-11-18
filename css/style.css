@@ -1,0 +1,16 @@
+.popup {
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    background: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.hide {
+    display: none;
+}
