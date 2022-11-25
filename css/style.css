@@ -1,16 +1,22 @@
-.popup {
-    width: 200px;
-    height: 200px;
-    border: 2px solid green;
-    background: gray;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    font-size: 30px;
+
+.item-img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
 }
 
-.hide {
-    display: none;
+.item {
+    width: 350px;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+
+.list {
+    padding: 0;
+    list-style:none;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between ;
+    margin: 150px auto 0 auto;
 }
